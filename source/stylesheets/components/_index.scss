@@ -1,3 +1,58 @@
 // Import your components CSS files here.
 @import "alert";
 @import "navbar";
+@import "banner";
+@import "card";
+@import "footer";
+
+.img-circle {
+  width: 150px;
+}
+
+.wrapper-gray {
+  height: 400px;
+  background-color: #eee;
+}
+
+.wrapper-white {
+  height: 400px;
+  background-color: white;
+  position: relative;
+}
+
+.userinfo {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  bottom: 250px;
+  margin-left: -250px;
+  text-align: center;
+}
+
+.userinfo h2 {
+  padding-bottom: 10px;
+  font-size: 28px;
+  color: #444;
+  font-weight: bold;
+}
+
+.userinfo h3 {
+  font-size: 14px;
+  color: #aaa;
+  font-weight: bold;
+}
+
+.userinfo h4 {
+  padding-top: 8px;
+  font-size: 20px;
+  color: #444;
+  font-weight: bold;
+}
+
+.userinfo a {
+  color: #aaa;
+}
+
+.fa-heart {
+  color: red;
+}
